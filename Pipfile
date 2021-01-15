@@ -8,7 +8,7 @@ verify_ssl = true
 
 [packages]
 beautifulsoup4 = "==4.8.*"
-bokeh = ">=2.0""
+bokeh = ">=2.0"
 catboost = "*"
 chart_studio = "*"
 cloudpickle = "==1.5.*"
