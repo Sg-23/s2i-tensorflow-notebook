@@ -1518,7 +1518,7 @@
                 "sha256:c98232a3ac391f5faea6821b53db8db461157baa788f5d6222a193e9456e1740"
             ],
             "markers": "python_version < '3.8'",
-            "version": "==6.0.4"
+            "version": "==6.1.4"
         },
         "traitlets": {
             "hashes": [
