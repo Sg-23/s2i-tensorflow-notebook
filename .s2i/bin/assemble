@@ -4,7 +4,13 @@ set -x
 
 set -eo pipefail
 
-
+rm -rf /tmp/Pipfile.lock
+rm -rf /opt/app-root/requirements.txt
+cd /tmp/src  && cat Pipfile
+cp /tmp/src/Pipfile /opt/app-root/Pipfile
+# pip show click &&  pip show flask
+pipenv install --skip-lock 
+pipenv install tensorflow==2.2.0 --skip-lock 
 # Execute original assemble script.
 
 /opt/app-root/builder/assemble
